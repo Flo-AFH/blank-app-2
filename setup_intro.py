@@ -1,30 +1,37 @@
 import streamlit as st
 
+
 st.title("Using Streamlit in Codespaces")
-st.write(
-    "There are a few steps to follow to set up Codespaces to run streamlit!"
-)
+
+st.sidebar.markdown("[Making a GitHub account](#making-a-git-hub-account)")
+st.sidebar.markdown("[Using Streamlit Community Cloud with Codespaces](#codespaces-with-community-cloud)")
+st.sidebar.markdown("[Getting back into Codespaces](#revisit-codespaces)")
+
+"There are a few steps to follow to set up Codespaces to run streamlit!"
+
 
 # getting a github account set up first
-with st.expander("1st: If you don't have one yet: make a GitHub account"):
-    # can I put this image in the title of the expander? 
-    # st.image('https://pngimg.com/uploads/github/github_PNG40.png')
-    "Go to https://github.com/ and click on Sign up for GitHub"
-    st.image("/workspaces/blank-app-2/images/GitHub.png")
-    """Fill in mail, password and a Username and create your account.  
+st.header("Making a GitHub account")
+"1st: If you don't have one yet: make a GitHub account"
+# can I put this image in the title of the expander? 
+# st.image('https://pngimg.com/uploads/github/github_PNG40.png')
+"Go to https://github.com/ and click on Sign up for GitHub"
+st.image("/workspaces/blank-app-2/images/GitHub.png")
+"""Fill in mail, password and a Username and create your account.  
 You will be prompted to enter a code that was sent to your mail so make sure to choose a mail address that you can easily access.  
 You now have a GitHub account! 
 """
 
 
 # now explanation on how to get streamlit working in codespaces    
-with st.expander("2nd: Use Streamlit Community Cloud to use Codespaces"):
-    "*You can also refer to this website for documentation: https://docs.streamlit.io/get-started/installation/community-cloud*"
-    "**Open https://share.streamlit.io/**"
-    'Click on :blue-background[Continue to Sign in] and then on :blue-background[Continue with GitHub]'
-    st.image('https://js2iiu.com/wp-content/uploads/2025/05/68_01-934x1024.png')
-    st.write('Use your GitHub account credentials to sign in and authenticate the sign-up. ' \
-    '  When prompted click on "I accept".')
+st.header("Codespaces with Community Cloud")
+"2nd: Use Streamlit Community Cloud to use Codespaces"
+"*You can also refer to this website for documentation: https://docs.streamlit.io/get-started/installation/community-cloud*"
+"**Open https://share.streamlit.io/**"
+'Click on :blue-background[Continue to Sign in] and then on :blue-background[Continue with GitHub]'
+st.image('https://js2iiu.com/wp-content/uploads/2025/05/68_01-934x1024.png')
+st.write('Use your GitHub account credentials to sign in and authenticate the sign-up. ' \
+'  When prompted click on "I accept".')
 
 "Now you might either be in a :red[new environment] "
 st.image('https://docs.streamlit.io/images/streamlit-community-cloud/deploy-empty-new-app.png')
@@ -35,7 +42,9 @@ st.image('https://docs.streamlit.io/images/streamlit-community-cloud/GitHub-auth
 
 # have the two options
 with st.expander('A :red[new evironment] opened for you'):
-    ''
+    'Here you should be able to click on :blue-background[Workspaces] and then on :blue-background[Connect GitHub account].'
+    st.image('/workspaces/blank-app-2/workspace-unconnected-setup.png')
+    'Now you can just enter your credentials, after which you have to :blue-background[Authorize streamlit] to use Codespaces.'
     # if this then need to set up the github access with more steps 
 
 
@@ -48,9 +57,12 @@ with st.expander('You are :blue[prompted for more input]'):
     # if this just click on authorize and if they want also authorize for the second one 
 
 
+'To make a new app now you can click on :blue-background[Create App].'
+'When prompted you should select :blue-background[make one from template] and use :blue-background[Blank Template].'
+'By clicking :blue-background[Open GitHub Codespaces] and :blue-background[Deploy], you have added your first App.'
 
-# also making github account
-
+st.header('Revisit Codespaces')
+''
 
 # load project data here
 # what can they take from collab and put here? And how?
