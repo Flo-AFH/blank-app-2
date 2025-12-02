@@ -69,6 +69,12 @@ To open this, click on the three dots on the far right (see image) and choose :b
 #st.image('/workspaces/blank-app-2/images/Codespaces.png')
 
 
+# accidentally closed your preview?
+# you c
+
+'Do make sure to also **add the modules you are using to the requirements.txt file**. If you forget this your page will not work as could be seen this morning!'
+
+
 # load project data here
 # what can they take from collab and put here? And how?
 # examples: matplotlib figure, altair figure

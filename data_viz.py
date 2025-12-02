@@ -105,6 +105,9 @@ st.link_button("For more widget click here", 'https://docs.streamlit.io/develop/
 
 st.link_button('Cheatsheet', 'https://cheat-sheet.streamlit.app/')
 
+
+':yellow-background[!! Please make sure to also :red[**add the modules you are using to the requirements.txt file**]. If you forget this your page will not work as could be seen this morning !!]'
+
 # load project data here
 # what can they take from collab and put here? And how?
 # examples: matplotlib figure, altair figure
