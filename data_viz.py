@@ -103,6 +103,7 @@ st.pyplot(fig2)
 
 st.link_button("For more widget click here", 'https://docs.streamlit.io/develop/api-reference/widgets')
 
+st.link_button('Cheatsheet', 'https://cheat-sheet.streamlit.app/')
 
 # load project data here
 # what can they take from collab and put here? And how?
