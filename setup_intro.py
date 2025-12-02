@@ -16,7 +16,7 @@ st.header("Making a GitHub account")
 # can I put this image in the title of the expander? 
 # st.image('https://pngimg.com/uploads/github/github_PNG40.png')
 "Go to https://github.com/ and click on Sign up for GitHub"
-st.image("/workspaces/blank-app-2/images/GitHub.png")
+#st.image("/workspaces/blank-app-2/images/GitHub.png")
 """Fill in mail, password and a Username and create your account.  
 You will be prompted to enter a code that was sent to your mail so make sure to choose a mail address that you can easily access.  
 You now have a GitHub account! 
@@ -29,21 +29,21 @@ st.header("Codespaces with Community Cloud")
 "*You can also refer to this website for documentation: https://docs.streamlit.io/get-started/installation/community-cloud*"
 "**Open https://share.streamlit.io/**"
 'Click on :blue-background[Continue to Sign in] and then on :blue-background[Continue with GitHub]'
-st.image('https://js2iiu.com/wp-content/uploads/2025/05/68_01-934x1024.png')
+#st.image('https://js2iiu.com/wp-content/uploads/2025/05/68_01-934x1024.png')
 st.write('Use your GitHub account credentials to sign in and authenticate the sign-up. ' \
 '  When prompted click on "I accept".')
 
 "Now you might either be in a :red[new environment] "
-st.image('https://docs.streamlit.io/images/streamlit-community-cloud/deploy-empty-new-app.png')
+#st.image('https://docs.streamlit.io/images/streamlit-community-cloud/deploy-empty-new-app.png')
 "or you might see some more windows that :blue[ask for your input]"
-st.image('https://docs.streamlit.io/images/streamlit-community-cloud/GitHub-auth1-none.png')
+#st.image('https://docs.streamlit.io/images/streamlit-community-cloud/GitHub-auth1-none.png')
 
 
 
 # have the two options
 with st.expander('A :red[new evironment] opened for you'):
     'Here you should be able to click on :blue-background[Workspaces] and then on :blue-background[Connect GitHub account].'
-    st.image('/workspaces/blank-app-2/images/workspace-unconnected-setup.png')
+    #st.image('/workspaces/blank-app-2/images/workspace-unconnected-setup.png')
     'Now you can just enter your credentials, after which you have to :blue-background[Authorize streamlit] to use Codespaces.'
     # if this then need to set up the github access with more steps 
 
@@ -66,7 +66,7 @@ st.header('Revisit Codespaces')
 the app itself, but not the Codespace that you can work in.
 
 To open this, click on the three dots on the far right (see image) and choose :blue-background[Edit in Codespaces]'''
-st.image('/workspaces/blank-app-2/images/Codespaces.png')
+#st.image('/workspaces/blank-app-2/images/Codespaces.png')
 
 
 # load project data here
