@@ -88,6 +88,21 @@ alt_chart = alt.Chart(heart).mark_bar().encode(
 )
 st.altair_chart(alt_chart)
 
+st.header('Widgets')
+with st.expander('Code to use'):
+    st.code('''variable = st.selectbox('Select' , [10,15, 30])
+    fig2, ax = plt.subplots(figsize=(12, 4))
+
+    ax.hist(heart['AGE'], bins=variable)
+    st.pyplot(fig2)''')
+variable = st.selectbox('Select' , [10,15, 30])
+fig2, ax = plt.subplots(figsize=(12, 4))
+
+ax.hist(heart['AGE'], bins=variable)
+st.pyplot(fig2)
+
+st.link_button("For more widget click here", 'https://docs.streamlit.io/develop/api-reference/widgets')
+
 
 # load project data here
 # what can they take from collab and put here? And how?
