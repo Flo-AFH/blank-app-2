@@ -72,7 +72,7 @@ To open this, click on the three dots on the far right (see image) and choose :b
 # accidentally closed your preview?
 # you c
 
-'Do make sure to also **add the modules you are using to the requirements.txt file**. If you forget this your page will not work as could be seen this morning!'
+'Do make sure to also **add the modules you are using to the requirements.txt file**. If you forget this your page will not work (as could be seen this morning)!'
 
 
 # load project data here
