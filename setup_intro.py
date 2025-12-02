@@ -43,7 +43,7 @@ st.image('https://docs.streamlit.io/images/streamlit-community-cloud/GitHub-auth
 # have the two options
 with st.expander('A :red[new evironment] opened for you'):
     'Here you should be able to click on :blue-background[Workspaces] and then on :blue-background[Connect GitHub account].'
-    st.image('/workspaces/blank-app-2/workspace-unconnected-setup.png')
+    st.image('/workspaces/blank-app-2/images/workspace-unconnected-setup.png')
     'Now you can just enter your credentials, after which you have to :blue-background[Authorize streamlit] to use Codespaces.'
     # if this then need to set up the github access with more steps 
 
@@ -62,7 +62,12 @@ with st.expander('You are :blue[prompted for more input]'):
 'By clicking :blue-background[Open GitHub Codespaces] and :blue-background[Deploy], you have added your first App.'
 
 st.header('Revisit Codespaces')
-''
+'''When you go on share.streamlit.io again, you will see a list with your apps. When just clicking on one it will open'
+the app itself, but not the Codespace that you can work in.
+
+To open this, click on the three dots on the far right (see image) and choose :blue-background[Edit in Codespaces]'''
+st.image('/workspaces/blank-app-2/images/Codespaces.png')
+
 
 # load project data here
 # what can they take from collab and put here? And how?
